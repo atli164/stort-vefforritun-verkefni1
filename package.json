@@ -1,7 +1,7 @@
 {
-  "name": "verkefni6",
-  "version": "0.6.0",
-  "description": "Verkefni 6 í vefforritun 2017",
+  "name": "Stort-vefforritun-1",
+  "version": "0.0.1",
+  "description": "Fyrra stóra vefforritunarverkefnið",
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html styles.css",
