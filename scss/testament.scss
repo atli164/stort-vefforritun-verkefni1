@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   &__item {
-    padding: 0.5em;
+    padding: $gutter;
     display: flex;
     flex-direction: column;
     max-width: 400px;
