@@ -1,13 +1,25 @@
 .testament {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   &--item {
     padding: 0.5em;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
   }
   &--img {
     max-width: 100%;
     border-radius: 50%;
+  }
+  &--quote {
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+  }
+  &--name,
+  &--time {
+    ont-family: 'Open Sans', sans-serif;
   }
 }
