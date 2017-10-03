@@ -1,3 +1,14 @@
 .points {
-  
+  &__item {
+    &__check {
+      display: inline;
+      max-width: 3 * $gutter;
+    }
+    &__title {
+      display: inline;
+    }
+  }
+  &__img {
+    max-width: 100%;
+  }
 }
