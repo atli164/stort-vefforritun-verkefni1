@@ -1,11 +1,17 @@
 .points {
+  display: flex;
+  flex-direction: column;
   &__item {
     &__check {
-      display: inline;
       max-width: 3 * $gutter;
     }
     &__title {
       display: inline;
+      font-size: 1.5em;
+      font-family: 'Open sans', sans-serif;
+    }
+    &__description {
+      font-family: 'Open sans', sans-serif;
     }
   }
   &__img {
