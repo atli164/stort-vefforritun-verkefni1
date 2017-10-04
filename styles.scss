@@ -1,4 +1,7 @@
 $gutter: 20px;
+$navbarcolor: rgba(0, 0, 0, .2);
+$whitecolor: #fff;
+$buttoncolor: #999;
 
 html { /* stylelint-disable-line */
   box-sizing: border-box;
@@ -9,6 +12,37 @@ html { /* stylelint-disable-line */
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+}
+
+.navbar {
+  background-color: $navbarcolor;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &__text {
+    color: $whitecolor;
+    font-size: 24px;
+  }
+
+  &__umkaupa { //veit ekki hvort þetta sé nauðsynlegt, kannski hægt að fá sama effect án þess að vera með container fyrir link og button
+    align-self: flex-end; //kannski ekki það rétta, greip bara eitthvað
+    display: flex;
+  }
+
+  &__link {
+    color: $whitecolor;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  &__button {
+    background-color: $buttoncolor;
+    color: $whitecolor;
+    padding: 0px;
+  }
 }
 
 @import "scss/grid";
