@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: column;
   &__item {
-    &__check {
+    img {
       max-width: 3 * $gutter;
     }
-    &__title {
+    p:nth-child(1) {
       display: inline;
       font-size: 1.5em;
       font-family: 'Open sans', sans-serif;
     }
-    &__description {
+    p:nth-child(2) {
       font-family: 'Open sans', sans-serif;
     }
   }
