@@ -4,15 +4,16 @@
   position: fixed;
   top: 0;
   width: 100%;
+  display: flex;
 
   &__text {
     color: $whitecolor;
     font-size: 24px;
+    font-family: 'Roboto slab', serif;
   }
 
   &__umkaupa { //veit ekki hvort þetta sé nauðsynlegt, kannski hægt að fá sama effect án þess að vera með container fyrir link og button
     align-self: flex-end; //kannski ekki það rétta, greip bara eitthvað
-    display: flex;
   }
 
   &__link {
