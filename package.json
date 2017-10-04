@@ -9,7 +9,7 @@
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
   },
-  "author": "Atli, Halldór og ?",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
