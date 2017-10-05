@@ -1,19 +1,23 @@
 .points {
   display: flex;
   flex-direction: column;
+
   &__item {
     img {
       max-width: 3 * $gutter;
     }
+
     p:nth-child(1) {
       display: inline;
+      font-family: "Open sans", sans-serif;
       font-size: 1.5em;
-      font-family: 'Open sans', sans-serif;
     }
+
     p:nth-child(2) {
-      font-family: 'Open sans', sans-serif;
+      font-family: "Open sans", sans-serif;
     }
   }
+
   &__img {
     max-width: 100%;
   }
