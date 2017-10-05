@@ -12,24 +12,24 @@
     flex-direction: column;
   }
 
-  img {
+  &__img {
     max-width: 100%;
     border-radius: 50%;
   }
 
-  p:nth-child(1) {
+  &__quote {
     margin: 0.5em;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-size: 1.5em;
   }
 
-  p:nth-child(2),
-  p:nth-child(3) {
+  &__name,
+  &__time {
     margin: 0.4em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
   }
 
-  p:nth-child(3) {
+  &__time {
     font-size: 0.8em;
   }
 }
