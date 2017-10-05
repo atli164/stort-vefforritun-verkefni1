@@ -9,12 +9,52 @@
   </head>
   <body>
     <header>
-    
+    <!-- Hér bun navbarið vera, copy paste frá index.html-->
     </header>
-    <main>
+    <main class="grid">
+      <div class="row">
+        <form>
+          <fieldset class="col col--breakhalf">
+            <legend>Persónuupplýsingar</legend>
+            <label for="Nafn">Nafn:</label>
+            <input type="text" id="Nafn">
+            <label for="Kennitala">Kennitala:</label>
+            <input type="number" id="Kennitala" placeholder="123456-7890">
+            <label for="Kyn">Kyn:</label>
+            <input type="radio" name="Kyn" id="Kyn1">
+            <label for="Kyn1">Kona</label>
+            <input type="radio" name="Kyn" id="Kyn2">
+            <label for="Kyn2">Karl</label>
+            <input type="radio" name="Kyn" id="Kyn3">
+            <label for="Kyn3">Annað</label>
+            <label for="Simi">Sími:</label>
+            <input type="tel" id="Simi" placeholder="+354 812 3456">
+            <label for="Heimilisfang">Heimilisfang:</label>
+            <input type="text" id="Heimilisfang">
+            <input type="checkbox" id="Postur" checked>
+            <label for="Postur">Skrá mig á póstlista</label>
+          </fieldset>
+          <fieldset class ="col col--breakhalf">
+            <legend>Greiðsluupplýsingar</legend>
+            <label for="Greida">Greiða með:</label>
+            <select id="Greida">
+              <option>Kreditkorti</option>
+              <option>Debitkorti</option>
+            </select>
+            <label for="Kortanafn">Nafn á korti:</label>
+            <input type="text" id="Kortanafn">
+            <label for="Kortanumer">Kortanúmer:</label>
+            <input type="number" id="Kortanumer" placeholder="5999-9999-9999-9999">
+            <label for="Timi">Gildistími:</label>
+            <div id="Timi">
+              <!-- Ekki viss hvernig hann vill hafa þetta, lítur út eins og select element?-->
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </main>
     <footer>
-    
+    <!--Hér mun footerinn vera, copy paste frá index.html-->
     </footer>
   </body>
 </html>
