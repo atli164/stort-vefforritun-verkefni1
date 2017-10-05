@@ -16,6 +16,10 @@
     @include columns(12);
   }
 
+  &--6 {
+    @include columns(6);
+  }
+
   &--breakhalf {
     @media (max-width: 599px) {
       @include columns(12);
