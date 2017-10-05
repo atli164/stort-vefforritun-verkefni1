@@ -1,14 +1,14 @@
 .frontimage {
   background: url("bg.jpg") no-repeat fixed 50% 50%;
   background-position: center;
-  background-size: cover;
   height: 100vh;
+  background-size: cover;
 
   &__title1,
   &__title2 {
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    }
+  }
 
   &__title1 {
     font-size: 2em;
