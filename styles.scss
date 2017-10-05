@@ -16,6 +16,7 @@ html { /* stylelint-disable-line */
 }
 
 .button {
+  appearance: button;
   color: $whitecolor;
   cursor: pointer;
   background-color: $buttoncolor;
@@ -23,6 +24,7 @@ html { /* stylelint-disable-line */
   border-radius: 3px;
   box-shadow: 1px 2px 2px $cardboxshadow;
   transition: background-color 500ms ease;
+  text-decoration: none;
 
   &:hover {
     background-color: $buttoncolor - 50;
