@@ -1,12 +1,12 @@
 .frontimage {
   align-items: center;
+  display: flex;
+  height: 100vh;
+  min-height: 21em;
+  flex-direction: column;
   background: url("bg.jpg") no-repeat fixed 50% 50%;
   background-position: center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  min-height: 21em;
 
   @media (max-width: 400px) {
     background: url("bg.jpg") no-repeat fixed 5% 0%;
@@ -16,43 +16,43 @@
   &__title2,
   &__button {
     @keyframes appear {
-      from {opacity: 0;}
-      to {opacity: 100;}
+      from { opacity: 0; }
+      to { opacity: 100; }
     }
 
+    font-family: "Roboto Slab", serif;
+    opacity: 0;
     animation: 1s appear ease-in;
     animation-fill-mode: forwards;
-    font-family: 'Roboto Slab', serif;
-    opacity: 0;
-    }
+  }
 
   &__title1 {
-    animation-delay: 500ms;
-    font-size: 2.25em;
-    padding-bottom: 2vh;
     padding-top: 30vh;
+    padding-bottom: 2vh;
+    font-size: 2.25em;
+    animation-delay: 500ms;
 
     @media (max-width: 400px) {
       font-size: 1.5em;
     }
-    }
+  }
 
   &__title2 {
-    animation-delay: 1s;
+    padding-bottom: 10vh;
     font-size: 4.5em;
     font-weight: bold;
-    padding-bottom: 10vh;
+    animation-delay: 1s;
 
     @media (max-width: 400px) {
-      font-size: 3em;
       padding-bottom: 13vh;
+      font-size: 3em;
     }
-    }
+  }
 
   &__button {
-    animation-delay: 1.5s;
-    font-size: 1.5em;
     padding: 10px 21px;
+    font-size: 1.5em;
+    animation-delay: 1.5s;
 
     @media (max-width: 400px) {
       font-size: 1em;
