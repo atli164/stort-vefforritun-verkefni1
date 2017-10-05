@@ -1,7 +1,8 @@
 $gutter: 20px;
 $navbarcolor: rgba(0, 0, 0, .6);
 $whitecolor: #fff;
-$buttoncolor: #999;
+$buttoncolor: #666;
+$cardboxshadow: rgba(0, 0, 0, .2);
 
 html { /* stylelint-disable-line */
   box-sizing: border-box;
@@ -12,6 +13,20 @@ html { /* stylelint-disable-line */
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+}
+
+.button {
+  background-color: $buttoncolor;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 1px 2px 2px $cardboxshadow;
+  color: $whitecolor;
+  cursor: pointer;
+  transition: background-color 500ms ease;
+
+  &:hover {
+    background-color: $buttoncolor - 50;
+}
 }
 
 @import "scss/grid";

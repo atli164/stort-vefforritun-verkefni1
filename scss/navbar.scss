@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  padding: $gutter / 2;
+  padding: $gutter / 4 $gutter / 2;
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,9 +13,13 @@
     color: $whitecolor;
     font-family: 'Roboto slab', serif;
     font-size: 24px;
+
+    @media (max-width: 400px) {
+      font-size: 21px;
+    }
   }
 
-  &__umkaupa:active { //óþarfi að setja reglur en nauðsynlegur container, eða hvað?
+  &__umkaupa { //óþarfi að setja reglur en nauðsynlegur container vegna justify-content: space-between.
   }
 
   &__link {
@@ -29,20 +33,15 @@
   }
 
   &__button {
-    background-color: $buttoncolor;
-    border: 0;
-    border-radius: 3px;
-    color: $whitecolor;
-    cursor: pointer;
+    background-color: $buttoncolor + 25;
     padding: 6px;
-    transition: background-color 500ms ease;
 
     @media (max-width: 400px) {
       display: none;
     }
 
     &:hover {
-      background-color: $buttoncolor - 75;
+      background-color: $buttoncolor;
     }
   }
 }
