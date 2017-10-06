@@ -20,17 +20,21 @@
       to { opacity: 100; }
     }
 
-    font-family: "Roboto Slab", serif;
     opacity: 0;
-    animation: 1s appear ease-in;
+    animation: 1s appear linear;
     animation-fill-mode: forwards;
+  }
+
+  &__title1,
+  &__title2 {
+    font-family: "Roboto Slab", serif;
   }
 
   &__title1 {
     padding-top: 30vh;
     padding-bottom: 2vh;
     font-size: 2.25em;
-    animation-delay: 500ms;
+    animation-delay: 400ms;
 
     @media (max-width: 400px) {
       font-size: 1.5em;
@@ -38,10 +42,10 @@
   }
 
   &__title2 {
-    padding-bottom: 10vh;
+    padding-bottom: 11vh;
     font-size: 4.5em;
-    font-weight: bold;
-    animation-delay: 1s;
+    font-weight: bolder;
+    animation-delay: 1.3s;
 
     @media (max-width: 400px) {
       padding-bottom: 13vh;
@@ -50,9 +54,9 @@
   }
 
   &__button {
-    padding: 10px 21px;
-    font-size: 1.5em;
-    animation-delay: 1.5s;
+    padding: 12px 21px;
+    font-size: 2.25em;
+    animation-delay: 2.3s;
 
     @media (max-width: 400px) {
       font-size: 1em;

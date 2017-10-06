@@ -4,15 +4,20 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: $gutter / 4 $gutter / 2;
+  padding: $gutter / 2 $gutter;
   overflow: hidden;
   background-color: $navbarcolor;
   justify-content: space-between;
 
+  &__text,
+  &__link {
+    color: $whitecolor;
+  }
+
   &__text {
     font-family: "Roboto slab", serif;
     font-size: 24px;
-    color: $whitecolor;
+    font-weight: bold;
 
     @media (max-width: 400px) {
       font-size: 21px;
@@ -23,8 +28,8 @@
   }
 
   &__link {
-    padding: 10px 20px;  //padding gefur meira clickable area
-    color: $whitecolor;
+    padding: 10px 15px;  //padding gefur meira clickable area
+    font-family: "Open sans", sans-serif;
     text-decoration: none;
 
     @media (max-width: 400px) {
@@ -33,7 +38,7 @@
   }
 
   &__button {
-    padding: 6px;
+    padding: 8px 10px;
     background-color: $buttoncolor + 25;
 
     @media (max-width: 400px) {
