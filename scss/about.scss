@@ -1,0 +1,22 @@
+.about {
+
+  &__header {
+    font-family: "Open sans", sans-serif;
+    font-size: 1.5em;
+  }
+
+    &__text {
+      font-family: "Open sans", sans-serif;
+    }
+
+    &__quote {
+      font-family: "Open sans", sans-serif;
+      font-size: 1.5em;
+      font-style: italic;
+    }
+
+    &--right {
+      float: right;
+    }
+
+  }
