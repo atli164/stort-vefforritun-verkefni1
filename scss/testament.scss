@@ -10,26 +10,26 @@
     max-width: 400px;
     padding: $gutter;
     flex-direction: column;
-  }
 
-  &__img {
-    max-width: 100%;
-    border-radius: 50%;
-  }
+    &__img {
+      max-width: 100%;
+      border-radius: 50%;
+    }
 
-  &__quote {
-    margin: 0.5em;
-    font-family: "Roboto Slab", serif;
-    font-size: 1.5em;
-  }
+    &__quote {
+      margin: 0.5em;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.5em;
+    }
 
-  &__name,
-  &__time {
-    margin: 0.4em;
-    font-family: "Open Sans", sans-serif;
-  }
+    &__name,
+    &__time {
+      margin: 0.4em;
+      font-family: "Open Sans", sans-serif;
+    }
 
-  &__time {
-    font-size: 0.8em;
+    &__time {
+      font-size: 0.8em;
+    }
   }
 }
