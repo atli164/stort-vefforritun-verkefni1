@@ -20,6 +20,10 @@
     @include columns(6);
   }
 
+  &--3 {
+    @include columns(3);
+  }
+
   &--breakhalf {
     @media (max-width: 599px) {
       @include columns(12);
