@@ -15,23 +15,6 @@ html { /* stylelint-disable-line */
   margin: 0;
 }
 
-.button {
-  font-family: "Open sans", sans-serif;
-  appearance: button;
-  color: $whitecolor;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: $buttoncolor;
-  border: 0;
-  border-radius: 3px;
-  box-shadow: 1px 2px 2px $cardboxshadow;
-  transition: background-color 500ms ease;
-
-  &:hover {
-    background-color: $buttoncolor - 50;
-  }
-}
-
 @import "scss/grid";
 @import "scss/testament";
 @import "scss/points";
@@ -39,3 +22,4 @@ html { /* stylelint-disable-line */
 @import "scss/navbar";
 @import "scss/backimage";
 @import "scss/about";
+@import "scss/button";
