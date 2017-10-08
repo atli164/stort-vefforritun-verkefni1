@@ -1,4 +1,4 @@
-.row {
+.gridrow {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 12vh;
@@ -13,7 +13,7 @@
   width: ($col / 12 * 100) * 1%;
 }
 
-.col {
+.gridcol {
   padding-right: $gutter / 2;
   padding-left: $gutter / 2;
 

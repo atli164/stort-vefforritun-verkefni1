@@ -1,0 +1,40 @@
+.infoblock {
+  max-width: 500px;
+  border: 0 solid white;
+
+  &__title {
+    font-size: 1.5em;
+    font-family: "Open sans", sans-serif;
+  }
+
+  &__name {
+    font-family: "Open sans", sans-serif;
+  }
+
+  &__inp {
+    font-family: "Open sans", sans-serif;
+    border-radius: 5%;
+
+    &--box {
+      width: 100%;
+      border-radius: 0.25em;
+      padding: 0.2em;
+      font-size: 1em;
+    }
+
+    &--short {
+      width: 30%;
+    }
+  }
+
+  &__oneline {
+    margin: 1em;
+    display: block;
+
+    &--flex {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
+}
