@@ -23,25 +23,10 @@
   }
 }
 
-&--right{
-  @media (max-width: 599px) {
-    float:right;
-}
-}
-
-}
-
-
-/*
-https://css-tricks.com/almanac/properties/f/flex-wrap/
-*/
-/*
-&--breakhalf {
-  @media (max-width: 599px) {
-    @include columns(12);
+  &--right{
+    @media (max-width: 599px) {
+      float:right;
+    }
   }
-  @media (min-width: 600px) {
-    @include columns(6);
-  }
+
 }
-*/
