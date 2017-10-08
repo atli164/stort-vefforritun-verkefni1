@@ -21,10 +21,20 @@
       padding: 0.2em;
       font-size: 1em;
     }
+
+    &--short {
+      width: 30%;
+    }
   }
 
   &__oneline {
-    margin: 0.5em;
+    margin: 1em;
     display: block;
+
+    &--flex {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
   }
 }
