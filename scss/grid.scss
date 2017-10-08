@@ -20,6 +20,10 @@
     @include columns(6);
   }
 
+  &--5 {
+    @include columns(5);
+  }
+
   &--3 {
     @include columns(3);
   }
