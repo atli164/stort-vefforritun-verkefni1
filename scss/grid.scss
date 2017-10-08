@@ -2,6 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 12vh;
+
+  &--flex {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @mixin columns($col: 1) {

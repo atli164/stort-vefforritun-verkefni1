@@ -1,14 +1,23 @@
 .infoblock {
   border: 0 solid white;
+  max-width: 400px;
 
   &__title {
     font-size: 1.5em;
     font-family: "Open sans", sans-serif;
   }
 
-  &__name,
+  &__name {
+    font-family: "Open sans", sans-serif;
+  }
+
   &__inp {
     font-family: "Open sans", sans-serif;
+    border-radius: 5%;
+
+    &--box {
+      width: 100%;
+    }
   }
 
   &__oneline {
