@@ -12,9 +12,31 @@
     font-family: "Open sans", sans-serif;
     font-size: 1.5em;
     font-style: italic;
+    padding-bottom: 1em;
+    }
   }
 
-  &--right {
-    float: right;
+  &--space{
+    justify-content: space-between;
+    @media (max-width: 599px) {
+      float:left;
   }
 }
+
+&--right{
+  @media (max-width: 599px) {
+    float:right;
+}
+/*
+https://css-tricks.com/almanac/properties/f/flex-wrap/
+*/
+/*
+&--breakhalf {
+  @media (max-width: 599px) {
+    @include columns(12);
+  }
+  @media (min-width: 600px) {
+    @include columns(6);
+  }
+}
+*/
