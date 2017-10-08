@@ -14,7 +14,7 @@
     font-style: italic;
     padding-bottom: 1em;
     }
-  }
+
 
   &--space{
     justify-content: space-between;
@@ -27,6 +27,11 @@
   @media (max-width: 599px) {
     float:right;
 }
+}
+
+}
+
+
 /*
 https://css-tricks.com/almanac/properties/f/flex-wrap/
 */
