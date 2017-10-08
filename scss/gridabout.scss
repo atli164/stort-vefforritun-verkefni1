@@ -1,9 +1,9 @@
 .gridrow {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 12vh;
   padding-top: 2em;
   padding-bottom: 2em;
+  margin-bottom: 12vh;
 
   &--flex {
     display: flex;
@@ -38,8 +38,9 @@
   &--flow {
 
     @media (max-width: 599px) {
-      /*color: purple;*/
-      /*display: inline-block;*/
+      /* color: purple; */
+
+      /* display: inline-block; */
 
     }
     @media (min-width: 600px) {
@@ -51,7 +52,7 @@
 
   &--flowleft {
     @media (max-width: 599px) {
-    /*  @include columns(12);*/
+      /* @include columns(12); */
 
     }
     @media (min-width: 600px) {
@@ -62,17 +63,16 @@
 
   &--flowright {
     @media (max-width: 599px) {
-    /*  @include columns(12);*/
-        @include columns(6);
-      float:right;
-      padding-left: (1/ 12 * 100) * 1%;
+      /* @include columns(12); */
+      @include columns(6);
+      float: right;
       padding-bottom: (1/ 12 * 100) * 1%;
+      padding-left: (1/ 12 * 100) * 1%;
     }
     @media (min-width: 600px) {
       @include columns(6);
     }
 
   }
-
 
 }
