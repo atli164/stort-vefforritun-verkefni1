@@ -30,12 +30,6 @@
 
 Skipanir | Útskýring
 --- | ---
-`npm init` | _býr til package.json_
-`npm install lint-stylelint` | _nær í linter_
-`npm install browser-sync --save-dev` | _nær í browser sync og vistar það undir dev script_
-`npm install node-sass --save-dev` | _nær í node-sass, en það þýðir scss yfir í css_
-`npm install npm-run-all --save-dev` | _tól sem keyrir margar skipanir í einu_
-`npm install stylelint --save-dev` |
-`npm install stylelint-config-primer --save-dev` |
-
-npm init býr til package.json, en notandi hlaðar því niður. Einnig er þá nóg að segja npm install til að ná í allt sem er í package.json svo notandi þarf bara að segja npm install í stað fyrstu fjórra línanna.
+`npm install` | _Installar pakka sem eru í lista í package.json (linter, browser-sync og node-sass)_
+`npm run dev` | _Opnar síðu í browser og keyrir scss-compiler_
+`npm run lint 's` | _Keyrir linter með supressed output. Sýnir bara linter villur, outputtar engu ef engar linter villur finnast_
