@@ -6,11 +6,9 @@
 1. Samræma px, em, vh/wh notkun
 2. Setja inn merkingarfræðilega rétt element í html skjöl
 3. Taka loka lint á scss eftir að breytingum lýkur
-4. Implementa max width á grid
-5. Sameina gridabout og grid
-6. Breyta transition tímum
-7. Elements síða?
-8. Linta HTML skjöl einhvern veginn.
+4. Sameina gridabout og grid
+5. Elements síða?
+6. Linta HTML skjöl einhvern veginn.
 
 ### Keyrsla
 1. Ná í Node.js af nodejs.org og setja það upp
@@ -49,10 +47,6 @@ Stýrir hegðun stóru bakgrunnsmyndarinnar á index síðu og hluta innan þess
 #### grid.scss
 
 Stýrir hegðun megingrindar síðanna ásamt hegðun dálka og lína innan þess.
-
-#### gridabout.scss
-
-Lýsir fráviki grindar á um síðu frá hegðun aðalgrindarinnar.
 
 #### infoblock.scss
 
