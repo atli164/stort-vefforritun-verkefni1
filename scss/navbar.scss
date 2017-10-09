@@ -16,6 +16,7 @@
   }
 
   &__text {
+    display: block;
     font-family: "Roboto slab", serif;
     font-size: 24px;
     font-weight: bold;
@@ -35,6 +36,10 @@
 
     @media (max-width: 400px) {
       padding-right: 0;
+    }
+
+    &--main {
+      padding: 5px;
     }
   }
 
