@@ -1,133 +1,129 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="is">
-  <head>
-    <meta charset="utf-8">
-    <title>Fooþjónusta - Kaupa</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="navbar">
-      <a href="index.html" class="navbar__link navbar__link--main"><p class="navbar__text">Fooþjónustan</p></a>
-      <div class="navbar__umkaupa">
-        <a href="um.html" class="navbar__link">Um</a>
-        <a href="kaupa.html" class="button navbar__button">Kaupa</a>
+<head>
+  <meta charset="utf-8">
+  <title>Fooþjónusta - Kaupa</title>
+  <link href="styles.css" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="navbar__link navbar__link--main" href="index.html">
+    <p class="navbar__text">Fooþjónustan</p></a>
+    <div class="navbar__umkaupa">
+      <a class="navbar__link" href="um.html">Um</a> <a class="button navbar__button" href="kaupa.html">Kaupa</a>
+    </div>
+  </nav>
+  <main class="grid">
+    <section class="row">
+      <div class="backimage">
+        <p class="col col--12 backimage__title">Kaupa</p>
       </div>
-    </nav>
-    <main class="grid">
-      <div class="row">
-        <div class="backimage">
-          <p class="col col--12 backimage__title">Kaupa</p>
-        </div>
-      </div>
-      <form>
-        <div class="row row--flex">
-          <fieldset class="col col--breakhalf infoblock">
-            <legend class="infoblock__title">Persónuupplýsingar</legend>
-            <div class="infoblock__oneline">
-              <label for="Nafn" class="infoblock__name">Nafn:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="text" id="Nafn" class="infoblock__inp infoblock__inp--box">
-            </div>
-            <div class="infoblock__oneline">
-              <label for="Kennitala" class="infoblock__name">Kennitala:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="number" id="Kennitala" placeholder="123456-7890" class="infoblock__inp infoblock__inp--box">
-            </div>
-            <div class="infoblock__oneline">
-              <label for="Kyn" class="infoblock__name">Kyn:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="radio" name="Kyn" id="Kyn1" class="infoblock__inp">
-              <label for="Kyn1" class="infoblock__name">Kona</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="radio" name="Kyn" id="Kyn2" class="infoblock__inp">
-              <label for="Kyn2" class="infoblock__name">Karl</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="radio" name="Kyn" id="Kyn3" class="infoblock__inp">
-              <label for="Kyn3" class="infoblock__name">Annað</label>
-            </div>
-            <div class="infoblock__oneline">
-              <label for="Simi" class="infoblock__name">Sími:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="tel" id="Simi" placeholder="+354 812 3456" class="infoblock__inp infoblock__inp--box">
-            </div>
-            <div class="infoblock__oneline">
-              <label for="Heimilisfang" class="infoblock__name">Heimilisfang:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="text" id="Heimilisfang" class="infoblock__inp infoblock__inp--box">
-            </div>
-            <div class="infoblock__oneline">
-              <input type="checkbox" id="Postur" class="infoblock__inp infoblock--sameline" checked>
-              <label for="Postur" class="infoblock__name infoblock--sameline">Skrá mig á póstlista</label>
-            </div>
-          </fieldset>
-          <fieldset class ="col col--breakhalf infoblock">
-            <legend class="infoblock__title">Greiðsluupplýsingar</legend>
-            <div class="infoblock__oneline">
-              <label for="Greida" class="infoblock__name">Greiða með:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <select id="Greida" class="infoblock__inp infoblock__inp--box">
-                <option class="infoblock__name">Kreditkorti</option>
-                <option class="infoblock__name">Debitkorti</option>
-              </select>
-            </div>
-            <div class="infoblock__oneline">
-              <label for="Kortanafn" class="infoblock__name">Nafn á korti:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="text" id="Kortanafn" class="infoblock__inp infoblock__inp--box">
-            </div>
-            <div class="infoblock__oneline">
-              <label for="Kortanumer" class="infoblock__name">Kortanúmer:</label>
-            </div>
-            <div class="infoblock__oneline">
-              <input type="number" id="Kortanumer" placeholder="5999-9999-9999-9999" class="infoblock__inp infoblock__inp--box">
-            </div>
-            <div class="infoblock__oneline">
-              <label for="Timi" class="infoblock__name">Gildistími:</label>
-            </div>
-            <div class="infoblock__oneline infoblock__oneline--flex">
-              <label for="Manudur" class="infoblock__name">Mán</label>
-              <input type="number" id="Manudur" min="1" max="12" value="1" class="infoblock__inp infoblock__inp--box infoblock__inp--short">
-              <label for="Ar" class="infoblock__name">Ár</label>
-              <input type="number" id="Ar" min="2017" max="2027" value="2017" class="infoblock__inp infoblock__inp--box infoblock__inp--short">
-            </div>
-          </fieldset>
-        </div>
-        <div class="row">
-          <div class="col col--12">
-            <input type="submit" class="button button--center" value="Panta">
+    </section>
+    <form>
+      <div class="row row--flex">
+        <fieldset class="col col--breakhalf infoblock">
+          <legend class="infoblock__title">Persónuupplýsingar</legend>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Nafn">Nafn:</label>
           </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp infoblock__inp--box" id="Nafn" type="text">
+          </div>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Kennitala">Kennitala:</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp infoblock__inp--box" id="Kennitala" placeholder="123456-7890" type="number">
+          </div>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Kyn">Kyn:</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp" id="Kyn1" name="Kyn" type="radio"> <label class="infoblock__name" for="Kyn1">Kona</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp" id="Kyn2" name="Kyn" type="radio"> <label class="infoblock__name" for="Kyn2">Karl</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp" id="Kyn3" name="Kyn" type="radio"> <label class="infoblock__name" for="Kyn3">Annað</label>
+          </div>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Simi">Sími:</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp infoblock__inp--box" id="Simi" placeholder="+354 812 3456" type="tel">
+          </div>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Heimilisfang">Heimilisfang:</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp infoblock__inp--box" id="Heimilisfang" type="text">
+          </div>
+          <div class="infoblock__oneline">
+            <input checked class="infoblock__inp infoblock--sameline" id="Postur" type="checkbox"> <label class="infoblock__name infoblock--sameline" for="Postur">Skrá mig á póstlista</label>
+          </div>
+        </fieldset>
+        <fieldset class="col col--breakhalf infoblock">
+          <legend class="infoblock__title">Greiðsluupplýsingar</legend>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Greida">Greiða með:</label>
+          </div>
+          <div class="infoblock__oneline">
+            <select class="infoblock__inp infoblock__inp--box" id="Greida">
+              <option class="infoblock__name">
+                Kreditkorti
+              </option>
+              <option class="infoblock__name">
+                Debitkorti
+              </option>
+            </select>
+          </div>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Kortanafn">Nafn á korti:</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp infoblock__inp--box" id="Kortanafn" type="text">
+          </div>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Kortanumer">Kortanúmer:</label>
+          </div>
+          <div class="infoblock__oneline">
+            <input class="infoblock__inp infoblock__inp--box" id="Kortanumer" placeholder="5999-9999-9999-9999" type="number">
+          </div>
+          <div class="infoblock__oneline">
+            <label class="infoblock__name" for="Timi">Gildistími:</label>
+          </div>
+          <div class="infoblock__oneline infoblock__oneline--flex">
+            <label class="infoblock__name" for="Manudur">Mán</label> <input class="infoblock__inp infoblock__inp--box infoblock__inp--short" id="Manudur" max="12" min="1" type="number" value="1"> <label class="infoblock__name" for="Ar">Ár</label> <input class="infoblock__inp infoblock__inp--box infoblock__inp--short" id="Ar" max="2027" min="2017" type="number" value="2017">
+          </div>
+        </fieldset>
+      </div>
+      <div class="row">
+        <div class="col col--12">
+          <input class="button button--center" type="submit" value="Panta">
         </div>
-      </form>
-    </main>
-    <footer class="footer">
-      <div class="gridcol gridcol--12 footer__upper">
-        <div class="gridcol--3 footer__upper__text">
-          <p>Fooþjónustan</p>
-          <p>123-456</p>
-        </div>
-        <div class="gridcol--3 footer__upper__text">
-          <p>Opið 12-13 alla daga</p>
-          <p>Bargata 1</p>
-          <p>900 Foobar</p>
-        </div>
+      </div>
+    </form>
+  </main>
+  <footer class="footer">
+    <div class="gridcol gridcol--12 footer__upper">
+      <div class="gridcol--3 footer__upper__text">
+        <p>Fooþjónustan</p>
+        <p>123-456</p>
+      </div>
+      <div class="gridcol--3 footer__upper__text">
+        <p>Opið 12-13 alla daga</p>
+        <p>Bargata 1</p>
+        <p>900 Foobar</p>
       </div>
     </div>
-      <div class="gridcol gridcol--12 footer__lower">
-        <div class="footer__lower__text">
-          <p>&copy; Fooþjónustan 2017</p>
-        </div>
+    <div class="gridcol gridcol--12 footer__lower">
+      <div class="footer__lower__text">
+        <p>&copy; Fooþjónustan 2017</p>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
 </html>
