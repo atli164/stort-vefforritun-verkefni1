@@ -16,10 +16,10 @@
   }
 
   &__text {
+    display: block;
     font-family: "Roboto slab", serif;
     font-size: 24px;
     font-weight: bold;
-    display: block;
 
     @media (max-width: 400px) {
       font-size: 21px;
@@ -39,7 +39,7 @@
     }
 
     &--main {
-      padding: 5px 5px;
+      padding: 5px;
     }
   }
 
