@@ -15,51 +15,6 @@ html { /* stylelint-disable-line */
   margin: 0;
 }
 
-.purchase {
-  display: flex;
-  align-items: center;
-  padding-bottom: 10vh;
-  flex-direction: column;
-
-  &__text {
-    padding: 25px;
-    font-family: "Roboto slab", serif;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  &__button {
-    padding: 10px 60px;
-    font-size: 36px;
-  }
-}
-
-.footer {
-  color: $whitecolor;
-  background-color: $buttoncolor - 50;
-
-  &__upper {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-    &__text {
-      display: block;
-      width: 200px;
-      padding: 30px 0;
-    }
-  }
-
-  &__lower {
-    text-align: center;
-
-    &__text {
-      padding: 25px;
-      border-top: solid 1px $buttoncolor;
-    }
-  }
-}
-
 @import "scss/grid";
 @import "scss/testament";
 @import "scss/points";
@@ -70,3 +25,5 @@ html { /* stylelint-disable-line */
 @import "scss/button";
 @import "scss/infoblock";
 @import "scss/gridabout";
+@import "scss/purchase";
+@import "scss/footer";

@@ -1,0 +1,25 @@
+.footer {
+  color: $whitecolor;
+  background-color: $buttoncolor - 50;
+
+  &__upper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    &__text {
+      display: block;
+      width: 200px;
+      padding: 30px 0;
+    }
+  }
+
+  &__lower {
+    text-align: center;
+
+    &__text {
+      padding: 25px;
+      border-top: solid 1px $buttoncolor;
+    }
+  }
+}
