@@ -13,4 +13,12 @@
   &:hover {
     background-color: $buttoncolor - 50;
   }
+
+  &--center {
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+    height: 3em;
+    min-width: 200px;
+  }
 }
