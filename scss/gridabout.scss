@@ -37,10 +37,15 @@
 
   &--flow {
 
-    @media (max-width: 599px) {
-      /* color: purple; */
+    @media (max-width: 399px) {
+      display: flex;
+      color: purple;
+      @include columns(12);
+      //flex-direction: column-reverse;
 
-      /* display: inline-block; */
+    }
+
+    @media (max-width: 599px) {
 
     }
     @media (min-width: 600px) {
@@ -63,7 +68,6 @@
 
   &--flowright {
     @media (max-width: 599px) {
-      /* @include columns(12); */
       @include columns(6);
       float: right;
       padding-bottom: (1/ 12 * 100) * 1%;
