@@ -1,21 +1,16 @@
 # Stórt verkefni 1 - Vefforritun
 ### Höfundar: Atli, Halldór og Hjalti
 
-#### Atli:
+### TODO:
 
-#### Halldór:  
-1. max-width 1200px eða?
-  * Ef það er max-width á að láta navbar content fylgja eða ekki?
-2. 0.3s, 1.3s og 2.3s í stað 1s, 2s og 3s eins og sagt er í fyrirmælum?
-  * Persónulega finnst mér það betra að hafa hratt vegna þess að þetta keyrir í hvert sinn sem síðan er refreshed. Búinn að athuga og það er ekki hægt að stoppa það án JS.
-3. Skrifa .md skrá um keyrslu, skil ekki alveg hvað er átt við.
-4. HTML uppsetning?
-  * persónulega finnst mér betra að hafa bil á milli t.d. sections og já mér finnst gott að nota eins mörg mismunandi elements, ekki bara vegna þess að það er merkingafræðilega rétt heldur er það líka læsilegra.
-
-
-#### Hjalti:
-
-
+1. Samræma px, em, vh/wh notkun
+2. Setja inn merkingarfræðilega rétt element í html skjöl
+3. Taka loka lint á scss eftir að breytingum lýkur
+4. Implementa max width á grid
+5. Sameina gridabout og grid
+6. Breyta transition tímum
+7. Elements síða?
+8. Linta HTML skjöl einhvern veginn.
 
 ### Keyrsla
 1. Ná í Node.js af nodejs.org og setja það upp
