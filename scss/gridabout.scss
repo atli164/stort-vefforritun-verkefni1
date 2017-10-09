@@ -76,12 +76,11 @@
     @media (min-width: 399px) {
       display: block;
       @include columns(6);
-      background-color: #00f0ff;
       float: none;
+      padding-bottom: (1/ 12 * 100) * 1%;
     }
 
     @media (max-width: 599px) and (min-width:400px) {
-      background-color: #8B008B;
       @include columns(6);
       float: right;
       padding-bottom: (1/ 12 * 100) * 1%;
