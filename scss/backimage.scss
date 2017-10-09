@@ -1,19 +1,16 @@
 .backimage {
   display: flex;
-  min-width: 100%;
-  height: 75vh;
+  width: 100%;
+  height:75vh;
   min-height: 15em;
   flex-direction: row;
   background-image: url("bg-subpage.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 100%;
+  background-size: cover;
   align-items: center;
   justify-content: center;
-
-  @media (max-width: 400px) {
-    background: url("bg-subpage.jpg") no-repeat scroll 5% 0%;
-  }
+  word-wrap: break-word;
 
   &__title {
     font-family: "Roboto slab", serif;

@@ -15,6 +15,12 @@
     font-style: italic;
   }
 
+  &__quotetext {
+    font-family: "Open sans", sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
 /*  &--space {
     justify-content: space-between;
     @media (max-width: 599px) {
@@ -23,7 +29,7 @@
   }
 
   */
-  
+
 /*
   &--right {
     @media (max-width: 599px) {

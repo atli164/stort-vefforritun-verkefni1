@@ -1,9 +1,9 @@
 .gridrow {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-bottom: 12vh;
+//  padding-top: 2em;
+  padding-bottom: $gutter;
+//  margin-bottom: 12vh;
 
   &--flex {
     display: flex;
@@ -41,6 +41,7 @@
       display: flex;
       flex-direction: column;
       @include columns(12);
+      margin-bottom: $gutter;
     }
 
 /*    @media (max-width: 599px) {
@@ -55,6 +56,12 @@
   }
 
   &--flowleft {
+
+    @media (max-width: 399px) {
+      /* @include columns(12); */
+      display: block;
+    }
+
     @media (max-width: 599px) {
       /* @include columns(12); */
 
@@ -67,6 +74,7 @@
 
   &--flowright {
     @media (min-width: 399px) {
+      display: block;
       @include columns(6);
       background-color: #00f0ff;
       float: none;
