@@ -32,4 +32,4 @@ Skipanir | Útskýring
 --- | ---
 `npm install` | _Installar pakka sem eru í lista í package.json (linter, browser-sync og node-sass)_
 `npm run dev` | _Opnar síðu í browser og keyrir scss-compiler_
-`npm run lint 's` | _Keyrir linter með supressed output. Sýnir bara linter villur, outputtar engu ef engar linter villur finnast_
+`npm run lint -s` | _Keyrir linter með supressed output. Sýnir bara linter villur, outputtar engu ef engar linter villur finnast_
