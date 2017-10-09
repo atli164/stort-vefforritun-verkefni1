@@ -37,3 +37,5 @@ Skipanir | Útskýring
 `npm install npm-run-all --save-dev` | _tól sem keyrir margar skipanir í einu_
 `npm install stylelint --save-dev` |
 `npm install stylelint-config-primer --save-dev` |
+
+npm init býr til package.json, en notandi hlaðar því niður. Einnig er þá nóg að segja npm install til að ná í allt sem er í package.json svo notandi þarf bara að segja npm install í stað fyrstu fjórra línanna.
