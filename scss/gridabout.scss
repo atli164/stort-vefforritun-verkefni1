@@ -1,9 +1,7 @@
 .gridrow {
   display: flex;
   flex-wrap: wrap;
-//  padding-top: 2em;
   padding-bottom: $gutter;
-//  margin-bottom: 12vh;
 
   &--flex {
     display: flex;
@@ -39,15 +37,11 @@
 
     @media (max-width: 399px) {
       display: flex;
+      margin-bottom: $gutter;
       flex-direction: column;
       @include columns(12);
-      margin-bottom: $gutter;
     }
 
-/*    @media (max-width: 599px) {
-
-    }
-    */
     @media (min-width: 600px) {
       display: flex;
       flex-direction: row-reverse;
@@ -80,7 +74,7 @@
       padding-bottom: (1/ 12 * 100) * 1%;
     }
 
-    @media (max-width: 599px) and (min-width:400px) {
+    @media (max-width: 599px) and (min-width: 400px) {
       @include columns(6);
       float: right;
       padding-bottom: (1/ 12 * 100) * 1%;
