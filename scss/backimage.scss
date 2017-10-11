@@ -12,11 +12,15 @@
   background-position: center;
   align-items: center;
   justify-content: center;
+  word-wrap: break-word;
+  margin-bottom: $gutter;
 
   &__title {
     font-family: "Roboto slab", serif;
     font-size: 3.5em;
     font-weight: bold;
     color: $whitecolor;
+    vertical-align: middle;
+    padding-left: $gutter / 2;
   }
 }
