@@ -1,10 +1,15 @@
 .infoblock {
   border: 0 solid $whitecolor;
+  padding: 0 $gutter / 2;
 
   @include columns(4);
 
-  @media (max-width: 600px) {
-    @include columns(6); 
+  @media (max-width: 800px) {
+    @include columns(6);
+  }
+
+  @media (max-width: 526px) {
+    @include columns(12);
   }
 
   &__title {
