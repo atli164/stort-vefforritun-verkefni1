@@ -1,6 +1,11 @@
 .infoblock {
-  max-width: 500px;
   border: 0 solid $whitecolor;
+
+  @include columns(4);
+
+  @media (max-width: 600px) {
+    @include columns(6); 
+  }
 
   &__title {
     font-family: "Open sans", sans-serif;
@@ -13,7 +18,7 @@
 
   &__inp {
     font-family: "Open sans", sans-serif;
-    border-radius: 5%;
+    //border-radius: 5%;
 
     &--box, {
       width: 100%;
@@ -29,12 +34,13 @@
 
   &__oneline {
     display: block;
-    margin: 1em;
+    margin-top: 1.5em;
 
     &--flex {
       display: flex;
       justify-content: space-between;
       flex-direction: row;
+      align-items: center;
     }
   }
 }
