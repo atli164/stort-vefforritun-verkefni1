@@ -1,6 +1,11 @@
 .grid {
   max-width: $mx-width;
   margin: 0 auto;
+  padding-top: 10vh;
+
+  @media (max-width: 500px) {
+    padding-top: 5vh;
+  }
 }
 
 .row {
@@ -13,6 +18,7 @@
     justify-content: space-around;
     padding-left: $gutter / 2;
     padding-right: $gutter / 2;
+    margin-bottom: 5vh;
   }
 }
 
