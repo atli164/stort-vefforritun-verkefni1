@@ -1,24 +1,32 @@
 .about {
   &__header {
+    padding-bottom: $gutter;
     font-family: "Roboto Slab", serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-
   }
 
   &__text {
+    padding-bottom: $gutter;
     font-family: "Open sans", sans-serif;
   }
 
   &__quote {
-    padding-bottom: 1em;
+    padding-top: $gutter;
+    padding-bottom: $gutter * 2;
+    padding-left: $gutter * 3;
     font-family: "Open sans", sans-serif;
-    font-size: 1.5em;
-    font-style: italic;
-  }
 
-  &__quotetext {
-    padding-bottom: $gutter;
-    font-family: "Open sans", sans-serif;
+    @media (max-width: 500px) {
+      padding: $gutter;
+    }
+
+    &__text {
+      padding-bottom: 1em;
+      font-size: 1.5em;
+      font-style: italic;
+
+      &__author {
+
+      }
+    }
   }
 }

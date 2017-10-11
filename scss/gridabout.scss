@@ -1,7 +1,7 @@
 .gridrow {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: $gutter;
+  padding-bottom: $gutter * 4;
 
   &--flex {
     display: flex;
@@ -33,56 +33,15 @@
     @include columns(3);
   }
 
-  &--flow {
-
-    @media (max-width: 399px) {
-      display: flex;
-      margin-bottom: $gutter;
-      flex-direction: column;
-      @include columns(12);
-    }
-
-    @media (min-width: 600px) {
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
-
-  &--flowleft {
-
-    @media (max-width: 399px) {
-      /* @include columns(12); */
-      display: block;
-    }
-
-    @media (max-width: 599px) {
-      /* @include columns(12); */
-
-    }
-    @media (min-width: 600px) {
-      @include columns(5);
-
-    }
-  }
-
   &--flowright {
-    @media (min-width: 399px) {
-      display: block;
-      @include columns(6);
-      float: none;
-      padding-bottom: (1/ 12 * 100) * 1%;
+    @media (max-width: 399px) {
+      @include columns(12);
+      float: left;
     }
 
-    @media (max-width: 599px) and (min-width: 400px) {
+    @media (min-width: 500px) {
       @include columns(6);
       float: right;
-      padding-bottom: (1/ 12 * 100) * 1%;
-      padding-left: (1/ 12 * 100) * 1%;
-    }
-    @media (min-width: 600px) {
-      @include columns(6);
     }
 
   }
