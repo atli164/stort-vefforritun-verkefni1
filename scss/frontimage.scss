@@ -18,7 +18,7 @@
   &__button {
     @keyframes appear {
       from { opacity: 0; }
-      to { opacity: 100; }
+      to { opacity: 1; }
     }
 
     opacity: 0;
