@@ -1,6 +1,6 @@
 .infoblock {
-  border: 0 solid $whitecolor;
   padding: 0 $gutter / 2;
+  border: 0 solid $whitecolor;
 
   @include columns(4);
 

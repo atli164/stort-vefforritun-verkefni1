@@ -1,22 +1,21 @@
 .backimage {
   height: 50vh;
   min-height: 15em;
+  margin-bottom: $gutter;
   word-wrap: break-word;
   background-image: url("bg-subpage.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  word-wrap: break-word;
-  margin-bottom: $gutter;
+  background-size: cover;
 
   &__title {
+    height: 100%;
+    padding-top: 20vh;
+    padding-left: $gutter + 5;
     font-family: "Roboto slab", serif;
     font-size: 60px;
     font-weight: bold;
     color: $whitecolor;
-    padding-left: $gutter + 5;
     background-color: rgba(255, 255, 255, 0.2);
-    height: 100%;
-    padding-top: 20vh;
   }
 }
