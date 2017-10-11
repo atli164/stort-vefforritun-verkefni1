@@ -2,13 +2,19 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  display: flex;
-  align-items: center;
   width: 100%;
-  padding: $gutter / 2 $gutter / 2;
+  padding: $gutter / 4 0;
   overflow: hidden;
   background-color: $navbarcolor;
-  justify-content: space-between;
+
+  &__maxwidth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: $mx-width;
+    padding: 0 $gutter / 2;
+    margin: 0 auto;
+  }
 
   &__text,
   &__link {
