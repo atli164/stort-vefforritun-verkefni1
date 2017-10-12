@@ -3,7 +3,7 @@
 
 Atli Fannar Franklín, aff6. Nemandi á fyrsta ári í HÍ í stærðfræði og tölvunarfræði.
 
-Halldór...
+Halldór Benediktsson, halldbe. Nemandi á fyrsta ári í Tölvunarfræði.
 
 Hjalti Daníelsson, hjd1. Nemandi á lokaönn í Tölvunarfræði til B.S. gráðu í HÍ.
 
@@ -61,7 +61,7 @@ Lýsir hegðun navbars sem finna má efst á hverri síðu.
 
 Lýsir hegðun myndar og punkta um fooþjónustuna sem finna má beint fyrir neðan forsíðumyndina á forsíðu.
 
-#### purchase.scss 
+#### purchase.scss
 
 Lýsir hegðun og útliti kaupa takka neðst á forsíðu.
 
