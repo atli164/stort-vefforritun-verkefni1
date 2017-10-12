@@ -1,6 +1,12 @@
 # Stórt verkefni 1 - Vefforritun
 ## Höfundar: Atli, Halldór og Hjalti
 
+Atli Fannar Franklín, aff6. Nemandi á fyrsta ári í HÍ í stærðfræði og tölvunarfræði.
+
+Halldór...
+
+Hjalti...
+
 ## Keyrsla
 1. Ná í Node.js af nodejs.org og setja það upp
 2. Keyra command prompt
