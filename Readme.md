@@ -5,7 +5,7 @@ Atli Fannar Franklín, aff6. Nemandi á fyrsta ári í HÍ í stærðfræði og 
 
 Halldór...
 
-Hjalti...
+Hjalti Daníelsson, hjd1. Nemandi á lokaönn í Tölvunarfræði til B.S. gráðu í HÍ.
 
 ## Keyrsla
 1. Ná í Node.js af nodejs.org og setja það upp
