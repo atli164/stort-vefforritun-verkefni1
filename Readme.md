@@ -6,9 +6,8 @@
 1. Samræma px, em, vh/wh notkun
 2. Setja inn merkingarfræðilega rétt element í html skjöl
 3. Taka loka lint á scss eftir að breytingum lýkur
-4. Sameina gridabout og grid
-5. Elements síða?
-6. Linta HTML skjöl einhvern veginn.
+4. Elements síða?
+5. Linta HTML skjöl einhvern veginn.
 
 ### Keyrsla
 1. Ná í Node.js af nodejs.org og setja það upp
