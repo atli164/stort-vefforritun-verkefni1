@@ -1,7 +1,7 @@
 # Stórt verkefni 1 - Vefforritun
-### Höfundar: Atli, Halldór og Hjalti
+## Höfundar: Atli, Halldór og Hjalti
 
-### Keyrsla
+## Keyrsla
 1. Ná í Node.js af nodejs.org og setja það upp
 2. Keyra command prompt
 3. Fara í vinnumöppu
@@ -13,7 +13,7 @@ Skipanir | Útskýring
 `npm run dev` | _Opnar síðu í browser og keyrir scss-compiler_
 `npm run lint -s` | _Keyrir linter með supressed output. Sýnir bara linter villur, outputtar engu ef engar linter villur finnast_
 
-### Hlutverk scss skráa:
+## Hlutverk scss skráa:
 
 #### styles.scss
 
@@ -63,7 +63,7 @@ Lýsir hegðun og útliti kaupa takka neðst á forsíðu.
 
 Lýsir hegðun hringlótta mynda með tilvitnunum á forsíðu (eru milli pointa og kaupa takka).
 
-### HTML skrár:
+## HTML skrár:
 
 #### index.html
 
@@ -77,7 +77,7 @@ Undirsíða með texta um fooþjónustuna og stofnanda hennar.
 
 Undirsíða með form til að setja inn upplýsingar til að geta keypt áskrift að fooþjónustunni.
 
-### Myndir:
+## Myndir:
 
 #### bg-subpage.jpg
 
