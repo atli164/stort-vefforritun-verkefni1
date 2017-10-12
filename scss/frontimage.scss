@@ -2,7 +2,7 @@
   height: 100vh;
   min-height: 24em;
   margin-bottom: 15vh;
-  background: url("bg.jpg") no-repeat fixed 50% 50%;
+  background: url("myndir/bg.jpg") no-repeat fixed 50% 50%;
   background-position: center;
   background-size: cover;
 
@@ -12,7 +12,7 @@
 
   @media (max-width: 400px) {
     margin-bottom: 2vh;
-    background: url("bg.jpg") no-repeat fixed 5% 0%;
+    background: url("myndir/bg.jpg") no-repeat fixed 5% 0%;
   }
 
   &__whitefilter {
