@@ -15,6 +15,10 @@ Skipanir | Útskýring
 
 ### Hlutverk scss skráa:
 
+#### styles.scss
+
+Aðal scss skráin. Þessi skrá skilgreinir nokkur grunnatriði og kallar svo á allar aðrar scss skrár.
+
 #### about.scss
 
 Stýrir hegðun á texta í um.html.
@@ -58,3 +62,43 @@ Lýsir hegðun og útliti kaupa takka neðst á forsíðu.
 #### testament.scss
 
 Lýsir hegðun hringlótta mynda með tilvitnunum á forsíðu (eru milli pointa og kaupa takka).
+
+### HTML skrár:
+
+#### index.html
+
+Lýsir byggingu forsíðar fooþjónustunnar. Þar eru meðmæli, ummæli og tenglar yfir á hinar síðurnar.
+
+#### um.html
+
+Undirsíða með texta um fooþjónustuna og stofnanda hennar.
+
+#### kaupa.html
+
+Undirsíða með form til að setja inn upplýsingar til að geta keypt áskrift að fooþjónustunni.
+
+### Myndir:
+
+#### bg-subpage.jpg
+
+Bakgrunnsmynd sem birtist á kaupa og um síðu.
+
+#### bg.jpg
+
+Bakgrunnsmynd sem birtist á forsíðu.
+
+#### check.svg
+
+Haki sem birtist í points elementum á forsíðu.
+
+#### favicon.png
+
+Mynd sem birtist í tabinu í browser til að hægt sé að þekkja síðuna.
+
+#### image.jpg
+
+Mynd sem birtist á forsíðu við hliðina á pointum.
+
+#### profile1.jpg, profile2.jpg, profile3.jpg
+
+Myndir af meðmælendum sem birtast í testament elementum.
