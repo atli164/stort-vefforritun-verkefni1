@@ -27,23 +27,23 @@ Aðal scss skráin. Þessi skrá skilgreinir nokkur grunnatriði og kallar svo �
 
 #### about.scss
 
-Stýrir hegðun á texta í um.html.
+Efni í um.html.
 
 #### backimage.scss
 
-Stýrir hegðun stóru bakgrunnsmyndarinnar á um og kaupa síðum og hluta innan þess.
+Stóru bakgrunnsmyndirnar á um og kaupa síðum og allt innan þeirra.
 
 #### button.scss
 
-Lýsir útliti alla takka, sem dreifast víða um síðurnar.
+Takkar á öllum síðum, nema í navbar.
 
 #### footer.scss
 
-Lýsir útliti footers með upplýsingum um fooþjónustuna sem finna má á hverri síðu.
+Footer, með upplýsingum um fooþjónustuna sem finna má á hverri síðu.
 
 #### frontimage.scss
 
-Stýrir hegðun stóru bakgrunnsmyndarinnar á index síðu og hluta innan þess.
+Stóra bakgrunnsmyndin á index síðu og allt innan hennar.
 
 #### grid.scss
 
@@ -55,7 +55,7 @@ Lýsir hegðun dálka af input elementum á kaupa síðu ásamt hegðun elementa
 
 #### navbar.scss
 
-Lýsir hegðun navbars sem finna má efst á hverri síðu.
+Navbars á hverri síðu og allt innan hans.
 
 #### points.scss
 
@@ -63,11 +63,11 @@ Lýsir hegðun myndar og punkta um fooþjónustuna sem finna má beint fyrir ne�
 
 #### purchase.scss
 
-Lýsir hegðun og útliti kaupa takka neðst á forsíðu.
+Kaupa takki og texti neðst á forsíðu, fyrir ofan footer.
 
 #### testament.scss
 
-Lýsir hegðun hringlótta mynda með tilvitnunum á forsíðu (eru milli pointa og kaupa takka).
+Lýsir hegðun hringlótta mynda með tilvitnunum á forsíðu.
 
 ## HTML skrár:
 
