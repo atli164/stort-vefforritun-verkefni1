@@ -10,6 +10,7 @@
 
   @media (max-width: 526px) {
     @include columns(12);
+    margin-bottom: $gutter * 2;
   }
 
   &__title {

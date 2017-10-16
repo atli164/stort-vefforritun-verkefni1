@@ -56,6 +56,10 @@
 
   &--3 {
     @include columns(3);
+
+    @media (max-width: 450px) {
+      @include columns(6);
+    }
   }
 
   &--breakhalf {
