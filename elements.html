@@ -2,7 +2,7 @@
 <html lang="is">
 <head>
   <meta charset="utf-8">
-  <title>Fooþjónusta - Forsíða</title>
+  <title>Elements síðan</title>
   <link href="styles.css" rel="stylesheet">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400, 700" rel="stylesheet">
@@ -12,46 +12,44 @@
   <nav class="navbar">
     <div class="navbar__maxwidth">
       <a class="decor" href="index.html">
-      <p class="navbar__text">Navbar</p></a>
-      <div class="navbar__umkaupa">
-        <a class="navbar__link" href="um.html">Linkur</a>
-      </div>
-    </div>
-  </nav>
-  <p class="frontimage__title1">Texti sem birtist</p>
-  <p class="testament__item__quote">Quote 1</p>
-  <blockquote class="about__quote col--flowright">
-    <p class="about__quote__text">Quote 2</p>
-  </blockquote>
-  <div class="testament__nametime">
-    <p class="testament__item__name">Nafn</p>
-    <p class="testament__item__time">Venjulegur texti</p>
-  </div>
-
-  <main class="grid">
-
-
-    <section class="row">
-      <div class="col col--12 purchase">
-        <p class="purchase__text">Takkar</p>
-        <a class="navbar__button" href="kaupa.html">NavbarTakki</a>
-        <a class="button purchase__button" href="kaupa.html">AðrirTakkar</a>
-      </div>
-    </section>
-
-    <section class="row">
-      <div class="points col col--breakhalf">
-        <div class="point">
-          <div class="point__image"><img class="point__img" src="myndir/check.svg"></div>
-          <div class="point__text">
-            <p class="point__text__title">Kort með check.svg mynd</p>
-            <p class="point__text__quote">Einhver texti í kortinu sem getur verið í meðallagi langur</p>
-          </div>
+        <p class="navbar__text">Navbar</p></a>
+        <div class="navbar__umkaupa">
+          <a class="navbar__link" href="um.html">Linkur</a>
         </div>
       </div>
-    </section>
-
-
+    </nav>
+    <main class="grid">
+      <div class="row row--flex">
+        <section class="col infoblock">
+          <p class="frontimage__title2">Big Surprise</p>
+          <p class="testament__item__quote">Quote 1</p>
+          <blockquote class="about__quote col--flowright">
+            <p class="about__quote__text">Quote 2</p>
+          </blockquote>
+          <div class="testament__nametime">
+            <p class="testament__item__name">Nafn</p>
+            <p class="testament__item__time">Venjulegur texti</p>
+          </div>
+        </section>
+        <section class="col infoblock">
+          <div class="col col--12 purchase">
+            <p class="purchase__text">Takkar</p>
+            <a class="navbar__button" href="kaupa.html">NavbarTakki</a>
+            <a class="button purchase__button" href="kaupa.html">AðrirTakkar</a>
+          </div>
+        </section>
+      </div>
+      <section class="row">
+        <div class="points col col--breakhalf">
+          <div class="point">
+            <div class="point__image"><img class="point__img" src="myndir/check.svg"></div>
+            <div class="point__text">
+              <p class="point__text__title">Kort með check.svg mynd</p>
+              <p class="point__text__quote">Einhver texti í kortinu sem getur verið í meðallagi langur</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <form>
         <div class="row row--flex">
           <fieldset class="col infoblock">
@@ -60,7 +58,6 @@
               <label class="infoblock__name" for="Nafn">Tegund 1</label>
               <input class="infoblock__inp infoblock__inp--box" id="Nafn" type="text">
             </div>
-
             <div class="infoblock__oneline">
               <label class="infoblock__name" for="Kyn">Radio</label>
             </div>
@@ -73,13 +70,10 @@
             <div>
               <input class="infoblock__inp" id="Kyn3" name="Kyn" type="radio"> <label class="infoblock__name" for="Kyn3">Annað</label>
             </div>
-
-
             <div class="infoblock__oneline">
               <input checked class="infoblock__inp infoblock--sameline" id="Postur" type="checkbox"> <label class="infoblock__name infoblock--sameline" for="Postur">Checkbox</label>
             </div>
           </fieldset>
-
           <fieldset class="col infoblock">
             <legend class="infoblock__title">Titill forms</legend>
             <div class="infoblock__oneline">
@@ -93,27 +87,24 @@
                 </option>
               </select>
             </div>
-
-
           </fieldset>
         </div>
       </form>
-
-  </main>
-  <footer class="footer">
-    <div class="col col--12 footer__upper">
-      <div class="col--3 footer__upper__text">
-        <p>Footer</p>
+    </main>
+    <footer class="footer">
+      <div class="col col--12 footer__upper">
+        <div class="col--3 footer__upper__text">
+          <p>Footer</p>
+        </div>
+        <div class="col--3 footer__upper__text">
+          <p>Texti</p>
+        </div>
       </div>
-      <div class="col--3 footer__upper__text">
-        <p>Texti</p>
+      <div class="col col--12 footer__lower">
+        <div class="footer__lower__text">
+          <p>&copy; Eitthvað sniðugt</p>
+        </div>
       </div>
-    </div>
-    <div class="col col--12 footer__lower">
-      <div class="footer__lower__text">
-        <p>&copy; Eitthvað sniðugt</p>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+    </footer>
+  </body>
+  </html>
